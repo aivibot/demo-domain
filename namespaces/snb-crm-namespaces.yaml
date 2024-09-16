@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: snb-crm-prod
+  labels:
+    app : snb-crm
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: snb-crm-qa
+  labels:
+    app : snb-crm
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: snb-crm-dev
+  labels:
+    app : snb-crm
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: snb-crm-build
+  labels:
+    app : snb-crm
